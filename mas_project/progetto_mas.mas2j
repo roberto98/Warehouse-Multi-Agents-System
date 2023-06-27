@@ -1,0 +1,24 @@
+/*
+    progetto_mas
+    ---------------------------
+
+    Jason Project File
+
+    This file defines the initial state of the MAS
+
+    Jason 2.5.1
+    aprile 26, 2023 - 13:57:50
+*/
+
+MAS progetto_mas {
+
+    infrastructure: Local
+	
+    environment: WarehouseEnv(gui) // use "nogui" as parameter to not show the GUI
+
+    agents: robot_1;
+        	robot_2;
+			courier;
+			stock;
+
+}
